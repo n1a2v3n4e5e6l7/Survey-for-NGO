@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <!-- <script src="js/p5.play.js"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/firebase@6.1.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-database.js"></script>
+
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyBsgChhJLSbcuRELdYfeTVskhWDNc-_cF0",
+          authDomain: "form-df038.firebaseapp.com",
+          databaseURL: "https://form-df038.firebaseio.com",
+          projectId: "form-df038",
+          storageBucket: "form-df038.appspot.com",
+          messagingSenderId: "60575741399",
+          appId: "1:60575741399:web:f225a6375e8123015b0792"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+    <script src="user.js"></script>
+    <script src="form.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div id="canvascontainer">
+        <script src="sketch.js"></script>
+    </div>
+</body>
+
+</html>
